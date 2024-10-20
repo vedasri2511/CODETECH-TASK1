@@ -1,0 +1,96 @@
+/*THIS IS css file*/
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?sky') no-repeat center center fixed; 
+    background-size: cover;
+    color: #004d99; /* Blue font color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Container for weather information */
+#weatherContainer {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    backdrop-filter: blur(10px); /* Background blur */
+}
+
+/* Style for the heading */
+h1 {
+    font-size: 3rem;
+    color: #004d99; /* Blue color for heading text */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7); /* Soft white shadow */
+    margin-bottom: 20px;
+    animation: glow 1.5s infinite alternate;
+}
+
+/* Input and button styling */
+input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 20px;
+    color: #004d99; /* Blue input text */
+}
+
+button {
+    padding: 12px 18px;
+    background-color: #004d99; /* Blue background */
+    color: #fff; /* White text on button */
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #003366; /* Darker blue on hover */
+    transform: scale(1.05);
+}
+
+/* Weather info styling */
+#cityName, #temperature, #description, #humidity, #windSpeed {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #004d99; /* Blue color for text */
+}
+
+/* Weather icon styling */
+#weatherIcon {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #004d99; /* Blue footer text */
+}
+
+/* Glow animation for the heading */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #004d99, 0 0 10px #004d99, 0 0 15px #004d99;
+    }
+    100% {
+        text-shadow: 0 0 10px #004d99, 0 0 20px #004d99, 0 0 30px #004d99;
+    }
+}
