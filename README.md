@@ -10,7 +10,7 @@ Project: Creating a weather forecast app using CSS, HTML,
 and JavaScript.
 
 
-"C:\Users\hello\OneDrive\Pictures\Screenshots\Screenshot 2024-10-25 195332.png"
+![Screenshot 2024-10-25 195332](https://github.com/user-attachments/assets/2306b351-9ab9-414e-b2fa-b505ea53d770)
 
 File Breakdown:
 1. index.html
